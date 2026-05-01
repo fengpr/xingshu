@@ -1,0 +1,22 @@
+[orchestrator]
+default_execution_mode = "hybrid"
+max_parallel_agents = 3
+enable_result_trace = true
+
+[routing]
+privacy_first = true
+prefer_local_for_sensitive_tasks = true
+prefer_online_for_realtime_tasks = true
+
+[agents.knowledge_retriever]
+enabled = true
+mode = "local_first"
+
+[agents.device_controller]
+enabled = true
+mode = "local_only"
+
+[agents.online_search]
+enabled = true
+mode = "online_only"
+

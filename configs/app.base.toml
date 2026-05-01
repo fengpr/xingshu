@@ -1,0 +1,26 @@
+[app]
+name = "xingshu"
+display_name = "Xingshu"
+mode = "hybrid"
+locale = "zh-CN"
+theme = "system"
+
+[desktop]
+host = "127.0.0.1"
+service_port = 18080
+enable_tray = true
+enable_global_hotkey = true
+
+[storage]
+database_path = "data/local/xingshu.db"
+vector_path = "data/vector"
+cache_path = "data/cache"
+log_path = "data/logs"
+backup_path = "data/backups"
+
+[security]
+offline_first = true
+allow_network = true
+confirm_high_risk_actions = true
+mask_sensitive_data = true
+

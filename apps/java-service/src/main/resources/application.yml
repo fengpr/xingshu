@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: xingshu-java-service
+  datasource:
+    url: jdbc:sqlite:../../data/local/xingshu.db
+    driver-class-name: org.sqlite.JDBC
+
+server:
+  port: 18080
+  address: 127.0.0.1
+
+logging:
+  level:
+    root: INFO
+    com.xingshu.service: INFO
+
+xingshu:
+  security:
+    offline-first: true
+    allow-network: true
+  orchestration:
+    default-mode: hybrid
+

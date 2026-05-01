@@ -1,0 +1,2 @@
+"""Xingshu desktop client package."""
+

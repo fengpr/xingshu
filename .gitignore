@@ -1,0 +1,45 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+dist/
+site/
+*.egg-info/
+
+# Java / Gradle
+.gradle/
+build/
+out/
+*.class
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+*.swp
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Runtime data
+data/local/*
+data/cache/*
+data/vector/*
+data/logs/*
+data/backups/*
+*.log
+
+# Keep directory placeholders
+!data/local/.gitkeep
+!data/cache/.gitkeep
+!data/vector/.gitkeep
+!data/logs/.gitkeep
+!data/backups/.gitkeep

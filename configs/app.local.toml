@@ -1,0 +1,9 @@
+[app]
+environment = "local"
+
+[desktop]
+debug = true
+
+[security]
+allow_network = true
+

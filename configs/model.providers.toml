@@ -1,0 +1,18 @@
+[routing]
+default_mode = "hybrid"
+fallback_to_local = true
+
+[local]
+provider = "ollama"
+base_url = "http://127.0.0.1:11434"
+default_model = "qwen2.5:7b"
+embedding_model = "nomic-embed-text"
+
+[online.openai]
+enabled = false
+model = "gpt-4.1-mini"
+
+[online.deepseek]
+enabled = false
+model = "deepseek-chat"
+
